@@ -8,9 +8,9 @@ pipeline {
             steps {
                
                 
-                       
+                sh "rm -rf down.txt"       
                 sh "/var/lib/jenkins/workspace/abbott-statuscheck/statuscheck.sh"
-sh "wget http://3.94.52.186:8080/job/abbott-statuscheck/ws/down.txt"
+archiveArtifacts artifacts: 'down.txt', excludes: 'output/*.md'
             }
         }
     }
