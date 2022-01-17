@@ -4,3 +4,4 @@ https://www.testtargettreat.com/ko/home.html
 https://www.testtargettreat.com/pt/home.html
 https://www.testtargettreat.com/zh-hans/home.html
 https://www.testtargettreat.com/zh-hant/home.html
+http://3.94.52.186:8080/user/admin/
