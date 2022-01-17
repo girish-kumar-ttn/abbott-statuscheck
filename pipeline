@@ -11,8 +11,8 @@ pipeline {
                 sh "rm -rf all_url_list.txt"
                 sh "rm -rf error_url_list.txt"       
                 sh "/var/lib/jenkins/workspace/abbott-statuscheck/statuscheck.sh"
-archiveArtifacts artifacts: 'all_url_list.txt', excludes: 'output/*.md'
-archiveArtifacts artifacts: 'error_url_list.txt', excludes: 'output/*.md'
+archiveArtifacts artifacts: 'all_url_list.txt'
+archiveArtifacts artifacts: 'error_url_list.txt'
             }
         }
     }
