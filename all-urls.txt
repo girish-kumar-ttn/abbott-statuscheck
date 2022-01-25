@@ -6,4 +6,5 @@ https://www.testtargettreat.com/zh-hans/home.html
 https://www.testtargettreat.com/zh-hant/home.html
 https://dev-gpoc.ardxdigital.com/en/index.html
 https://www.testtargettreat.com/enn/home.html
+http://54.209.68.29:8080/user/admin/
 http://3.94.52.186:8080/user/admin/
